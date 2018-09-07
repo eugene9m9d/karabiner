@@ -19,6 +19,11 @@
                                         "key_code": "f13"
                                     }
                                 ],
+                                "to_if_held_down": [
+                                    {
+                                        "key_code": "caps_lock"
+                                    }
+                                ],
                                 "type": "basic"
                             }
                         ]
