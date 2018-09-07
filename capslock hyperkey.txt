@@ -1,22 +1,22 @@
 {
-                        "description": "make capslock as hyperkey_control+option+command",
                         "manipulators": [
                             {
+                                "description": "make capslock as hyperkey_control+option+command",
                                 "from": {
-                                    "key_code": "caps_lock",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
+                                    "key_code": "caps_lock"
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_command",
+                                        "key_code": "left_control",
                                         "modifiers": [
-                                            "left_control",
+                                            "left_command",
                                             "left_option"
                                         ]
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "f13"
                                     }
                                 ],
                                 "type": "basic"
